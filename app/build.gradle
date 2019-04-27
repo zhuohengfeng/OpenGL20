@@ -26,4 +26,7 @@ dependencies {
     implementation project(':sample05_01')
     implementation project(':sample05_02')
     implementation project(':sample09_01')
+    implementation project(':sample05_03')
+    implementation project(':sample07_01')
+    implementation project(':sample07_04')
 }

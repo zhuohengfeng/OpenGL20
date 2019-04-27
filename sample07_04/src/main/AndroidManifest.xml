@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ryan.opengles.sample05_03" >
+    package="com.ryan.opengles.sample07_04" >
 
     <application
         android:allowBackup="true"
         android:supportsRtl="true">
-        <activity android:name="com.ryan.opengles.sample05_03.Sample05_03">
+        <activity android:name="com.ryan.opengles.sample07_04.Sample07_04">
         </activity>
     </application>
 

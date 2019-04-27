@@ -9,5 +9,4 @@ void main() {
         gl_FragColor = bColor;//给此片元颜色值
     } else {
         gl_FragColor = mColor;//给此片元颜色值
-    }
-}
+    }}

@@ -1,1 +1,1 @@
-include ':app', ':m_library', ':sample03_1', ':sample05_01', ':sample05_02', ':sample05_03', ':sample09_01'
+include ':app', ':m_library', ':sample03_1', ':sample05_01', ':sample05_02', ':sample05_03', ':sample07_01', ':sample07_04', ':sample09_01'

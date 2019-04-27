@@ -1,7 +1,10 @@
-package com.ryan.opengles;
+package com.ryan.opengles.sample09_01;
 
 import android.content.Context;
 import android.opengl.GLES20;
+
+import com.ryan.opengles.MatrixState;
+import com.ryan.opengles.ShaderUtil;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -49,9 +52,9 @@ public class LoadedObjectVertexOnly
     public void initShader(Context context)
     {
         //加载顶点着色器的脚本内容
-        mVertexShader=ShaderUtil.loadFromAssetsFile("vertex.glsl", context.getResources());
+        mVertexShader=ShaderUtil.loadFromAssetsFile("vertex.sh", context.getResources());
         //加载片元着色器的脚本内容
-        mFragmentShader=ShaderUtil.loadFromAssetsFile("frag.glsl", context.getResources());
+        mFragmentShader=ShaderUtil.loadFromAssetsFile("frag.sh", context.getResources());
         //基于顶点着色器与片元着色器创建程序
         mProgram = ShaderUtil.createProgram(mVertexShader, mFragmentShader);
         //获取程序中顶点位置属性引用

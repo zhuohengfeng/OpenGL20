@@ -14,6 +14,8 @@ import android.widget.TextView;
 import com.ryan.opengles.sample03_1.Sample03_1;
 import com.ryan.opengles.sample05_01.Sample05_01;
 import com.ryan.opengles.sample05_02.Sample05_02;
+import com.ryan.opengles.sample07_01.Sample07_01;
+import com.ryan.opengles.sample07_04.Sample07_04;
 import com.ryan.opengles.sample09_01.Sample09_01;
 
 import org.json.JSONArray;
@@ -63,10 +65,15 @@ public class MainActivity extends ListActivity{
                         break;
 
                     case 5:
-                        intent = new Intent(MainActivity.this, Sample09_01.class);
+                        intent = new Intent(MainActivity.this, Sample07_01.class);
                         break;
 
                     case 6:
+                        intent = new Intent(MainActivity.this, Sample07_04.class);
+                        break;
+
+                    case 7:
+                        intent = new Intent(MainActivity.this, Sample09_01.class);
                         break;
                 }
 
@@ -115,7 +122,15 @@ public class MainActivity extends ListActivity{
             list.add(sample6_1);
 
             // ---------------第7章 纹理映射--------------
+            ItemBean sample7_1 = new ItemBean();
+            sample7_1.name = "第7章 纹理贴图";
+            sample7_1.info = "贴图和拉伸";
+            list.add(sample7_1);
 
+            ItemBean sample7_4 = new ItemBean();
+            sample7_4.name = "第7章 纹理贴图";
+            sample7_4.info = "绘制地球";
+            list.add(sample7_4);
 
             // ---------------第8章 3D基本形状--------------
 

@@ -1,4 +1,4 @@
-package com.ryan.opengles;
+package com.ryan.opengles.sample09_01;
 
 import android.content.Context;
 import android.content.res.Resources;
