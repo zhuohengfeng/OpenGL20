@@ -7,6 +7,7 @@ import android.view.MotionEvent;
 
 import com.ryan.opengles.LoadUtil;
 import com.ryan.opengles.LoadedObjectVertexOnly;
+import com.ryan.opengles.Logger;
 import com.ryan.opengles.MatrixState;
 
 import javax.microedition.khronos.egl.EGLConfig;
@@ -24,9 +25,8 @@ public class MySurfaceView extends GLSurfaceView
 
     public MySurfaceView(Context context) {
         super(context);
-        this.mContext = context;
-
         this.setEGLContextClientVersion(2); //设置使用OPENGL ES2.0
+        this.mContext = context;
         mRenderer = new SceneRenderer();	//创建场景渲染器
         setRenderer(mRenderer);				//设置渲染器
         setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);//设置渲染模式为主动渲染

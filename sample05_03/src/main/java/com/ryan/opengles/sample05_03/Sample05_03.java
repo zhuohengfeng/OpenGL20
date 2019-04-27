@@ -1,7 +1,7 @@
-package com.ryan.opengles.sample05_02;
+package com.ryan.opengles.sample05_03;
 
 import android.app.Activity;
 
-public class Sample05_02 extends Activity {
+public class Sample05_03 extends Activity {
 
 }
