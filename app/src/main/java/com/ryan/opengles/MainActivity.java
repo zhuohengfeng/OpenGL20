@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.ryan.opengles.sample03_1.Sample03_1;
 import com.ryan.opengles.sample05_01.Sample05_01;
+import com.ryan.opengles.sample05_02.Sample05_02;
 import com.ryan.opengles.sample09_01.Sample09_01;
 
 import org.json.JSONArray;
@@ -52,6 +53,7 @@ public class MainActivity extends ListActivity{
                         break;
 
                     case 2:
+                        intent = new Intent(MainActivity.this, Sample05_02.class);
                         break;
 
                     case 3:
