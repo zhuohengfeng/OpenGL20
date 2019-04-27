@@ -58,7 +58,8 @@ public class MySurfaceView extends GLSurfaceView {
             MatrixState.popMatrix();
             // 绘制第二个
             MatrixState.pushMatrix();
-            MatrixState.translate(4, 0, 0);
+            MatrixState.translate(3, 0, 0);
+            MatrixState.rotate(60.5f, 0, 1f, 0);
             mCube.drawSelf();
             MatrixState.popMatrix();
         }
